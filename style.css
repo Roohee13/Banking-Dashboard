@@ -1,0 +1,75 @@
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #455A64; /* dark blue primary color */
+    padding: 30px; /* increased padding to make the card larger */
+    border: 1px solid #455A64; /* dark blue primary color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* set a fixed width to make the card larger */
+}
+
+h1 {
+    color: #2196F3; /* blue accent color */
+}
+
+#balance {
+    color: #8BC34A; /* green highlight color */
+}
+
+button {
+    background-color: #455A64; /* dark blue primary color */
+    color: #FFFFFF; /* white text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px; /* added margin bottom for spacing */
+}
+
+button:hover {
+    background-color: #607D8B; /* dark blue accent color */
+}
+
+#alert-message {
+    display: none;
+    background-color: #8BC34A; /* green highlight color */
+    padding: 10px;
+    border-radius: 10px;
+    color: #455A64; /* dark blue primary color */
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    position: absolute; /* add this to move the footer to the bottom */
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer li {
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: #2196F3;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #8BC34A;
+  }
